@@ -1,51 +1,53 @@
-
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.nav{
-    background-color: rgb(71, 71, 71); 
+.nav {
+    background-color: rgb(71, 71, 71);
     height: 60px;
 }
 
-.l-col{
+.l-col {
     display: grid;
     grid-template-columns: 50% 1fr;
     grid-template-rows: 20px 20rem 5px 20rem 10rem;
     gap: 10px;
-   
+
     width: 60%;
     padding: 25px;
-} 
+}
 
-.r-col{
+.r-col {
     width: 40%;
-    
+
     display: grid;
-    grid-template-rows: 200px 25px 5px ;
+    grid-template-rows: 200px 25px 5px;
     gap: 10px;
     padding: 25px;
-    
 
-   
+
+
 }
 
-.container{
+.container {
     display: flex;
-    height: 100rem;
+    height: 60m;
 }
-.tab{
+
+.tab {
     grid-column: 1/-1;
     background-color: rgb(176, 174, 174);
 
 }
-.tab-right{
+
+.tab-right {
     grid-column: 1/-1;
     background-color: rgb(176, 174, 174);
 }
-.grid-img{
-    
+
+.grid-img {
+
     width: 100%;
     height: 100%;
     display: grid;
@@ -54,50 +56,55 @@ body{
 
 }
 
-.content{
-   
+.content {
+
     display: grid;
-    grid-template-rows: 30px 1fr  50px;
+    grid-template-rows: 30px 1fr 50px;
 
     gap: 20px;
 }
 
-.minibar{
+.minibar {
     background-color: rgb(71, 71, 71);
 }
-.img{
+
+.img {
     background-color: rgb(176, 174, 174);
 }
 
-.text{
+.text {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(71, 71, 71);
 }
-.foot{
+
+.foot {
     grid-column: 1;
     background-color: gray;
 }
-.side-bar{
+
+.side-bar {
     grid-column: 2;
     grid-row: 2/-1;
     border: 1px solid black;
 }
-.r-content{
-    
+
+.r-content {
+
     display: grid;
-    grid-template-rows: 1fr 5px 1fr ;
+    grid-template-rows: 1fr 5px 1fr;
     height: 590px;
     gap: 10px;
 }
 
-.rimg{
+.rimg {
     width: 150px;
     height: 150px;
     background-color: gray;
 }
-.textr{
+
+.textr {
     background-color: gray;
     margin: 10px;
     display: flex;
